@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "SkillCircle",
+    "slug": "skill-circle",
+    "scheme": "skillcircle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#111827"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.skillcircle"
+    },
+    "android": {
+      "package": "com.yourname.skillcircle",
+      "permissions": ["NOTIFICATIONS"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      "expo-document-picker",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "router": {}
+    }
+  }
+}
